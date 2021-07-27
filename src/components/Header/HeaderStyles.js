@@ -28,7 +28,7 @@ export const Div1 = styled.div`
 `;
 
 export const Span = styled.span`
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-left: 1rem;
 `;
 
@@ -36,8 +36,9 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 5;
   display: flex;
   justify-content: space-around;
+
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 2 / 2 / 5;
   }
 `;
 export const Div3 = styled.div`

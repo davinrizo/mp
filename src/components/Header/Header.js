@@ -22,7 +22,6 @@ const Header = () => (
             display: 'flex',
             alignItems: 'center',
             color: 'black',
-            marginBottom: '20px',
           }}
         >
           <VscSymbolNamespace size="3rem" /> <Span> Davinrizo</Span>
