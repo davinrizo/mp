@@ -12,10 +12,12 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hi, I'm Johnny Knoxville. <br />
-        Welcome to jackass
+        Hi, I'm Davin. <br />
+        Welcome to my portfolio.
       </SectionTitle>
-      <SectionText>Welcome to paradise sweet carolina</SectionText>
+      <SectionText>
+        Freelance full stack developer and also a teacher.
+      </SectionText>
       <Button onClick={() => (window.location = 'http://google.com')}>
         Get In Touch
       </Button>
